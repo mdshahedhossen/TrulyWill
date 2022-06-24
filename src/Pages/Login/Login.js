@@ -27,6 +27,9 @@ const Login = () => {
 
 
   let signInError;
+  if(user || gUser){
+    navigate('/')
+  }
   if(loading||gLoading){
     return <Loading></Loading>
   }
@@ -34,7 +37,6 @@ const Login = () => {
   if (error ||gError) {
     signInError=<p className="text-red-500">{error?.message}</p>
   }
-
 
   const onSubmit = (data) => {
     signInWithEmailAndPassword(data.email, data.password)

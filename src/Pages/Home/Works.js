@@ -6,8 +6,8 @@ import sign from '../../Images/works/sign.png'
 const Works = () => {
   return (
     <section>
-      <div class="flex flex-col justify-center items-center lg:px-32 px-4 my-14">
-        <div class="divider"></div>
+      <div className="flex flex-col justify-center items-center lg:px-32 px-4 my-14">
+        <div className="divider"></div>
       </div>
       <div className="text-center mb-12">
         <h2 className="text-[40px] font-press-start font-bold">How it Works</h2>
@@ -39,8 +39,8 @@ const Works = () => {
            </div>
         </div>
       </div>
-      <div class="flex flex-col justify-center items-center lg:px-32 px-4 my-14">
-        <div class="divider"></div>
+      <div className="flex flex-col justify-center items-center lg:px-32 px-4 my-14">
+        <div className="divider"></div>
       </div>
     </section>
   );

@@ -7,8 +7,8 @@ import receive from '../../Images/icons/receive.png'
 const TruelySoluation = () => {
   return (
     <section>
-      <div class="flex flex-col justify-center items-center lg:px-32 px-4 my-14">
-        <div class="divider"></div>
+      <div className="flex flex-col justify-center items-center lg:px-32 px-4 my-14">
+        <div className="divider"></div>
       </div>
 
       <div className="grid lg:grid-cols-3 grid-cols-1 gap-4 lg:px-36 px-5">
@@ -16,8 +16,8 @@ const TruelySoluation = () => {
          <h1 className="font-bold text-[32px] font-press-start">TrulyWill: <span className="text-[#3484F0]">The Solution</span> to all Your Estate Planning Concerns</h1>
         </div>
         <div className="">
-          <div class="card max-w-screen-lg bg-base-100">
-            <div class="card-body">
+          <div className="card max-w-screen-lg bg-base-100">
+            <div className="card-body">
               <img src={receive} alt="" className="w-[22px]" />
               <div>
               <h1 className="text-xl font-press-start font-bold py-2">Receive Expert Guidance</h1>
@@ -28,8 +28,8 @@ const TruelySoluation = () => {
           </div>
         </div>
         <div className="">
-          <div class="card max-w-screen-lg bg-base-100">
-            <div class="card-body">
+          <div className="card max-w-screen-lg bg-base-100">
+            <div className="card-body">
               <img src={process} alt="" className="w-[22px]"/>
              <div>
                 <h1 className="text-xl font-press-start font-bold py-2">Simplified process</h1>
@@ -40,8 +40,8 @@ const TruelySoluation = () => {
           </div>
         </div>
         <div className="lg:col-start-2">
-          <div class="card max-w-screen-lg bg-base-100">
-            <div class="card-body">
+          <div className="card max-w-screen-lg bg-base-100">
+            <div className="card-body">
             <img src={doller} alt="" className="w-[22px]"/>
              <div>
                 <h2 className="text-xl font-press-start font-bold py-2">Cost Effective</h2>
@@ -51,8 +51,8 @@ const TruelySoluation = () => {
           </div>
         </div>
         <div className="">
-          <div class="card max-w-screen-lg bg-base-100 ">
-            <div class="card-body">
+          <div className="card max-w-screen-lg bg-base-100 ">
+            <div className="card-body">
             <img src={plan} alt="" className="w-[22px]"/>
               <div>
                 <h2 className="text-xl font-press-start font-bold py-2 ">State-Specific Plan</h2>

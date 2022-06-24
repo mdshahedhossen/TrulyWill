@@ -27,6 +27,9 @@ const Signup = () => {
     if (loading || gLoading||updating) {
       return <Loading></Loading>;
     }
+    if(user || gUser){
+        navigate('/')
+    }
   
     if (error || gError||updateError) {
       signInError = <p className="text-red-500">{error?.message}||{gError?.message} || {updateError?.message}</p>;
