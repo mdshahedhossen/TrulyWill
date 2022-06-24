@@ -11,7 +11,7 @@ const TruelySoluation = () => {
         <div class="divider"></div>
       </div>
 
-      <div className="grid lg:grid-cols-3 grid-cols-1 gap-4 lg:px-36 px-5 ">
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-4 lg:px-36 px-5">
         <div className="p-5">
          <h1 className="font-bold text-[32px] font-press-start">TrulyWill: <span className="text-[#3484F0]">The Solution</span> to all Your Estate Planning Concerns</h1>
         </div>

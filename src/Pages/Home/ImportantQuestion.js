@@ -2,7 +2,7 @@ import React from "react";
 
 const ImportantQuestion = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 px-14  mt-28 mb-28">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 px-14  mt-28 mb-28 bg-[#f4f9ff] py-7">
       <div
         tabindex="0"
         class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box p-8 shadow-md ">
